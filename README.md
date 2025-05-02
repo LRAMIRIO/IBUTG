@@ -1,6 +1,6 @@
-# Aplicativo WBGT com Horário Local
+# Aplicativo IBUTG com Horário Local
 
-Este aplicativo Streamlit permite processar arquivos CSV do INMET, detectar automaticamente o fuso horário da estação com base na latitude e longitude no cabeçalho, converter os horários de UTC para horário local e inserir os dados filtrados (das 08h às 17h locais) em uma planilha modelo no formato WBGT.
+Este aplicativo Streamlit permite processar arquivos CSV do INMET, detectar automaticamente o fuso horário da estação com base na latitude e longitude no cabeçalho, converter os horários de UTC para horário local e inserir os dados filtrados (das 08h às 17h locais) em uma planilha modelo no formato IBUTG (°C).
 
 ## Funcionalidades:
 - Upload de múltiplos arquivos CSV do INMET.
