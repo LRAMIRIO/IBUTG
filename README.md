@@ -11,7 +11,7 @@ Este aplicativo Streamlit permite processar arquivos CSV do INMET, detectar auto
 - Download automático de cada planilha processada.
 
 ## Instruções:
-1. Envie a planilha modelo WBGT (modelo.xlsx).
+1. Envie a planilha modelo  IBUTG (°C).
 2. Envie os arquivos CSV do INMET.
 3. Baixe os arquivos processados prontos para análise.
 
