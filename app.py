@@ -10,17 +10,9 @@ st.set_page_config(page_title="Conversor WBGT", layout="centered")
 st.title("☀️ Conversor de Dados INMET para Planilha WBGT")
 st.markdown("Este aplicativo converte arquivos CSV do INMET para o modelo WBGT (.xlsx), entre 08h e 17h no horário local detectado automaticamente.")
 
-modelo_uploaded = st.file_uploader(
-    "📄 Envie a planilha modelo WBGT (.xlsx)", 
-    type='xlsx', 
-    key="uploader_modelo"
-)
-csv_uploaded = st.file_uploader(
-    "📂 Envie os arquivos CSV do INMET", 
-    type='csv', 
-    accept_multiple_files=True,
-    key="uploader_csvs"
-)
+modelo_uploaded = st.file_uploader("📄 Envie a planilha modelo WBGT (.xlsx):", type=["xlsx"], key="modelo")
+csv_uploaded = st.file_uploader("📄 Envie os arquivos CSV do INMET:", type=["csv"], accept_multiple_files=True, key="csvs")
+
 
 if modelo_uploaded and csv_uploaded:
     modelo_bytes = modelo_uploaded.read()
