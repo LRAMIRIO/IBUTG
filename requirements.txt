@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+timezonefinder
+pytz
+matplotlib
